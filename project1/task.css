@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+} 
+#main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#sub1{
+    display: flex;
+    justify-content: flex-start;
+}
+#im{
+    width: 5vw;
+    height: 12vh;
+}
+#h{
+    position: absolute;
+    top: 2vh;
+    font-size: 2.2vw;
+}
+.co{
+    color: rgb(54, 159, 244);
+    margin-left: 6vw;
+    position: absolute;
+    top: 6vh;
+    left: 0vw;
+}
+.hh{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    font-size: 0.7vw;
+    color: gray;
+    cursor: pointer;
+}
+#hhh{
+    margin-left: 63vw;
+}
+#sub2,#sub22{
+    position: absolute;
+    top: 11vh;
+    width: 100vw;
+    height: 5vh;
+    justify-content: space-between;
+}
+.bu,.buu{
+    height: 4vh;
+    cursor: pointer;
+    font-size: 0.6VW;
+    border: none;
+    background-color: transparent;
+    color:  rgb(54, 159, 244);
+    margin-right: 2vw;
+    margin-bottom: 3px;
+}
+.buu{
+    color: gray;
+}
+b{
+    margin-top: 1vh;
+}
+.bu:hover{
+    background-color: rgba(164, 164, 245, 0.442);
+    color: white;
+}
+#b,#bb{
+    background-color: rgb(13, 105, 243);
+    color: white;
+    margin-left: 2vw;
+}
+#bb{
+    color:  gray;
+    background-color: transparent;
+}
+.sub3{
+    position: absolute;
+    top: 15vh;
+    width: 100vw;
+    height: 70vh;
+    border: 1px solid gray;
+}
+.img{
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 70vh;
+}
+#sub31{
+   position: absolute;
+   top: 22vh;
+    width: 20vw;
+    height: 6vh;
+    background-color: rgba(89, 120, 229, 0.39);
+    display: block;
+}
+#sub311{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    font-size: 1.5vw;
+    z-index: 1;
+    color: white;
+}
+.t{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-size: 0.8vw;
+    color:  rgb(54, 159, 244);
+}
+#tt{
+    margin-left: 1vw;
+    margin-top: 0.1vw;
+}
+#c{
+    color: white;
+    margin-left: 0.25vw;
+}
+#sub32{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    text-align: center;
+}
+.bu1{
+    width: 20vw;
+   height: 6vh;
+   font-size: 0.7vw;
+   color: white;
+   background-color:  rgb(54, 159, 244);
+}
+#get{
+    background-color: navy;
+}
+#sub33{
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    background-color:rgba(65, 105, 225, 0.721);
+    display: block;
+}
+.aa{
+    margin-top: 1vh;
+   margin-left: 1vw;
+}
+.ab{
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+#s{
+    margin-left: 0.3vw;
+    font-size: 1vw;
+}
+#p{
+    font-size: 1.3vw;
+}
+#click{
+    position: absolute;
+    bottom: 5vh;
+    height: 5vh;
+    left: 3vw;
+    border-radius: 10px;
+    background-color:  rgb(54, 159, 244);
+}
+#ap{
+    margin-top: 1vh;
+    color: white;
+}
+#sub4{
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid green;
+    position: absolute;
+    top: 85vh;
+    flex-wrap: nowrap;
+    display: block;
+}
+#the{
+    font-size: 4vw;
+    margin: 0.5vw;
+}
+#ac{
+  position: absolute;
+  top: 2vh;
+  left: 9vw;
+    font-size: 2vw;
+}
+#bu{
+    position: absolute;
+    bottom: 2vh;
+    left: 9vw;
+    font-size: 1vw;
+}
+.is{
+position: absolute;
+top: 2vh;
+right: 5vw;
+left: 20vw;
+}
+#sub22{
+    position: absolute;
+    top: 95vh;
+}
+#tea{
+    position: absolute;
+    top: 15vh;
+    width: 100vw;
+    height: 70vh;
+   
+}
+#tea1{
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(37, 37, 244, 0.51);
+    position: absolute;
+    top: 0vh;
+    left: 40vw;
+    display: block;
+}
+.na{
+    margin-left: 4vw;
+    margin-top: 2vh;
+    margin-right: 6vw;
+    text-align: justify;
+    color: white;
+}
+#naa{
+    font-size: 3vw;
+}
+#ayp{
+    position: absolute;
+    bottom: 0vh;
+    right: 1vw;
+    color: blueviolet;
+}
+
+/* document.getElementById("ad").style.backgroundColor="white"
+document.getElementById("ad").style.color="rgb(54, 159, 244)"
+
+
+document.getElementById("ad").style.color="white"
+document.getElementById("ad").style.backgroundColor="rgb(54, 159, 244)" */
